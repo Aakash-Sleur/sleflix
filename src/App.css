@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.app {
+    background-color: #111;
+    font-family: 'Roboto', sans-serif;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+
+.row__poster {
+    max-height: 150px;
+    object-fit: contain;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.row__poster:hover {
+    transform: scale(1.08);
+    opacity: 1;
+}
+
+.row__posterLarge {
+    max-height: 350px;
+}
+
+.row__posters:hover {
+    transform: scale(1.09);
+    opacity: 1;
+}
+
+.loginScreen {
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/83e8c151-107d-4e8f-b95a-d2ba99d49bb9/f1ac72e1-5adc-4caf-bceb-e8ec775414ac/IN-en-20230213-popsignuptwoweeks-perspective_alpha_website_small.jpg") center no-repeat;
+    background-size: cover;
+}
+
+
+.loginScreen__gradient {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+
+    /* Animation */
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.nav__black {
+    background-color: #111;
+}
+
+.banner__fadeBottom {
+    height: 7.4rem;
+    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61),
+            #111);
+
+}
