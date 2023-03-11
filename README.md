@@ -9,6 +9,8 @@ https://sleflix.netlify.app/
 This is an netflix clone inspired from the netflix clone developed by Sonny Sangha who made it with React js and CSS on Youtube. I replaced the regular css with Tailwind CSS and made it much more reponsive.
 
 This is not complete projects because there more to be added. This is my progress currently towards it.
+
+(Currently under development)
 # Features
 
 The above website have the below features:
